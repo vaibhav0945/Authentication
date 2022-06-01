@@ -180,7 +180,7 @@ function signIn(){
                 title: 'Succesfully signed in', 
             }).then((value) => {
                 setTimeout(function(){
-                    window.location.replace("./profile.html");
+                    window.location.replace("./calculate.html");
                 }, 1000)
             });
         }).catch((error) => {
