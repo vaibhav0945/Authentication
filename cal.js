@@ -2,12 +2,12 @@ function getMean() {
     var count = 0;
     var input;
     var sum = 0;
-    input = parseInt(prompt("Enter a number"));
+    input = parseInt(prompt("Enter a number (Enter -1 to terminate inputs)"));
     while (input != -1) {
         count++;
         sum += input;
         average = sum / count;
-        input = parseInt(prompt("Enter a number"));
+        input = parseInt(prompt("Enter a number (Enter -1 to terminate inputs)"));
     }
 
     alert("Mean is " + average);
@@ -28,7 +28,7 @@ function getMedian() {
     const arr = [];
     input = 1
     while (input != -1) {
-        input = parseInt(prompt("Enter a number "));
+        input = parseInt(prompt("Enter a number (Enter -1 to terminate inputs)"));
         arr.push(input);
     }
 
@@ -39,7 +39,7 @@ function getMode() {
     const arr = [];
     input = 1
     while (input != -1) {
-        input = parseInt(prompt("Enter a number "));
+        input = parseInt(prompt("Enter a number (Enter -1 to terminate inputs)"));
         arr.push(input);
     }
     var modes = [], count = [], i, number, maxIndex = 0;
