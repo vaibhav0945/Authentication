@@ -111,7 +111,7 @@ function signUp(){
             swal('Your Account Created','Your account was created successfully, you can log in now.',
             ).then((value) => {
                 setTimeout(function(){
-                    window.location.replace("../index.html");
+                    window.location.replace("./index.html");
                 }, 1000)
             });
         }).catch((error) => {
